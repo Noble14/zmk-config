@@ -17,12 +17,14 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
 include:
+  # Lintilla left can either be a central (no dongle) or peripheral (with dongle)
   - board: seeeduino_xiao_ble
     shield: lintilla_left_central rgbled_adapter
     snippet: studio-rpc-usb-uart
-    artifact-name: lintilla-left
+    artifact-name: lintilla-left-central
+
+  # Lintilla right will always be a peripheral
   - board: seeeduino_xiao_ble
     shield: lintilla_right_peripheral rgbled_adapter
-    artifact-name: lintilla-right
+    artifact-name: lintilla-right-peripheral
