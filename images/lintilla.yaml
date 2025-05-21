@@ -16,16 +16,16 @@ layers:
   - P
   - ⌫
   - {t: ⇥, h: 🌐}
-  - {t: A, h: ⇧}
-  - {t: S, h: ^}
-  - {t: D, h: ⌥}
-  - {t: F, h: ⌘}
-  - {t: G, h: Alt}
-  - {t: H, h: Alt}
-  - {t: J, h: ⌘}
-  - {t: K, h: ⌥}
-  - {t: L, h: ^}
-  - {t: '''', h: ⇧}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⌥}
+  - {t: D, h: ^}
+  - {t: F, h: ⇧}
+  - G
+  - H
+  - {t: J, h: ⇧}
+  - {t: K, h: ^}
+  - {t: L, h: Alt}
+  - {t: ;, h: ⌘}
   - {t: ↵, h: 🌐}
   - Y
   - X
@@ -37,7 +37,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: /, s: \}
-  - {t: (, h: numpad}
+  - Esc
   - {t: sticky ⇧, h: navigation, s: caps word}
   - {t: '{', h: LCMD}
   - {t: '}', h: RCMD}
@@ -80,7 +80,7 @@ layers:
   - '2'
   - '3'
   - '='
-  - {type: held}
+  - {t: ▽, type: trans}
   - navigation
   - ''
   - ','
@@ -166,7 +166,7 @@ layers:
   - F2
   - F3
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - F12
