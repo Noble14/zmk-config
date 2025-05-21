@@ -1,0 +1,24 @@
+
+
+```yaml
+include:
+  - board: seeeduino_xiao_ble
+    shield: lintilla_dongle dongle_display
+    snippet: studio-rpc-usb-uart
+    artifact-name: lintilla-dongle
+  - board: seeeduino_xiao_ble
+    shield: lintilla_left_peripheral rgbled_adapter
+    artifact-name: lintilla-left
+  - board: seeeduino_xiao_ble
+    shield: lintilla_right_peripheral rgbled_adapter
+    artifact-name: lintilla-right
+```
+
+
+```yaml
+include:
+  - board: seeeduino_xiao_ble
+    shield: lintilla_macro_right rgbled_adapter
+    snippet: studio-rpc-usb-uart
+    artifact-name: lintilla-macropad-right
+```
