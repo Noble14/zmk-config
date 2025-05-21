@@ -128,15 +128,15 @@
 // ┃  ESC  ┃   Q   ┃   W   ┃   E   ┃   R   ┃   T   ┃                          ┃   Z   ┃   U   ┃   I   ┃   O   ┃   P   ┃ BKSPC ┃
     &kp ESC  &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &kp BSPC
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃  TAB  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ' "  ┃RETURN ┃
-    Glb TAB  Sft A   Ctl S   Opt D   Cmd F   Alt G                              Alt H   Cmd J   Opt K   Ctl L  Sft SQT Glb RET
-// ┃ Globe ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃ R Alt ┃  Cmd  ┃  Opt  ┃ Ctrl  ┃ Shift ┃ Globe ┃
+// ┃  TAB  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ; "  ┃RETURN ┃
+    Glb TAB  Cmd A   Opt S   Ctl D   Sft F   &kp G                              &kp H   Sft J   Ctl K   Alt L  Cmd SEMI Glb RET
+// ┃ Globe ┃  Cmd  ┃  Opt  ┃  Ctrl ┃ Shift ┃       ┃                          ┃ R Alt ┃ Shift ┃  Ctrl ┃ RAlt  ┃  Cmd  ┃ Globe ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃   Y   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   N   ┃   M   ┃  , ;  ┃  . :  ┃  / \  ┃
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃ ( num ┃ SHIFT ┃ { cmd ┃  ┃ } cmd ┃ SPACE ┃ ) alt ┃
-                             &lt 1 LPAR &lsscw 2 0 &mt LCMD LBRC  &mt RCMD RBRC &lt 4 SPC &mt LALT RPAR
+//                                     ┃  ESC  ┃ SHIFT ┃ { cmd ┃  ┃ } cmd ┃ SPACE ┃ ) alt ┃
+                             &kp ESC &lsscw 2 0 &mt LCMD LBRC  &mt RCMD RBRC &lt 4 SPC &mt LALT RPAR
 //                                     ┗━━━━━━━┫  nav  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
