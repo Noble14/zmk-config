@@ -117,7 +117,7 @@
 
         qwerty {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "Qwerty"                ;
+            display-name = "Qwerty"                ; // 0
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -144,7 +144,7 @@
 
         num {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "numpad"                ;
+            display-name = "numpad"                ; // 1
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -170,7 +170,7 @@
 
         nav {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "navigation"            ;
+            display-name = "navigation"            ; // 2
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -196,7 +196,7 @@
 
         fn {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "function"              ;
+            display-name = "function"              ; // 3
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -221,7 +221,7 @@
 
         sym {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "symbols"               ;
+            display-name = "symbols"               ; // 4
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -246,7 +246,7 @@
 
         keybd {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "keyboard"              ;
+            display-name = "keyboard"              ; // 5
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
@@ -271,7 +271,7 @@
 
         flash {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "flash mode"            ;
+            display-name = "flash mode"            ; // 6
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
