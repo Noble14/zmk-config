@@ -155,7 +155,7 @@
      &none   &none   &none   &none   &none   &none                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃ CtrlA ┃       ┃ CtrlD ┃       ┃       ┃                          ┃   *   ┃   4   ┃   5   ┃   6   ┃   +   ┃RETURN ┃
-&kp GLOBE Sft LC(A) &kp LCTL Opt LC(D) &kp LGUI &kp RALT                       &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
+  &kp GLOBE  Cmd A   Opt S   Ctl D   Sft F  &trans                       &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
 // ┃ Globe ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃   :   ┃   1   ┃   2   ┃   3   ┃   =   ┃
