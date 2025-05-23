@@ -228,17 +228,17 @@
 //         ┃       ┃                                                                                          ┃       ┃
              &none                                                                                              &none
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃   `   ┃   *   ┃   #   ┃   +   ┃   %   ┃   _   ┃                          ┃       ┃ CtrlU ┃       ┃       ┃       ┃       ┃
-&kp GRAVE &kp STAR &kp HASH &kp PLUS &kp PRCNT &kp UNDER                        &none &kp LC(U) &none   &none   &none   &none
+// ┃       ┃   '   ┃   <   ┃   >   ┃   "   ┃   .   ┃                          ┃   &   ┃   `   ┃   [   ┃   ]   ┃   %   ┃       ┃
+     &none &kp APOS &kp LT &kp GT &kp DQT &kp DOT                         &kp AMPS &kp GRAVE &kp LBKT  &kp RBKT  &kp PRCNT &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃   ~   ┃   ^   ┃   @   ┃   !   ┃   =   ┃   $   ┃                          ┃ R Alt ┃  Cmd  ┃  Opt  ┃ Ctrl  ┃       ┃ Globe ┃
-&kp TILDE &kp CARET &kp AT &kp EXCL &kp EQUAL &kp DLLR                      &kp RALT &kp LGUI &kp LALT &kp LCTL &none &kp GLOBE
+// ┃       ┃   !   ┃   -   ┃   +   ┃   =   ┃   #   ┃                          ┃   |   ┃   :   ┃   (   ┃   )   ┃   ?   ┃ Globe ┃
+&none &kp EXCL &kp MINUS &kp PLUS &kp EQUAL &kp HASH                      &kp PIPE &kp COLON &kp KP_LPAR &kp KP_RPAR &kp QMARK &kp GLOBE
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃   <   ┃   >   ┃   [   ┃   ]   ┃   ?   ┃                          ┃       ┃       ┃       ┃       ┃       ┃
-             &kp LT &kp GT &kp LBKT &kp RBKT &kp QMARK                          &none   &none   &none   &none   &none
+//         ┃   ^   ┃   /   ┃   *   ┃   \   ┃   _   ┃                          ┃   ~   ┃   $   ┃   {   ┃   }   ┃   @   ┃
+        &kp CARET &kp FSLH &kp STAR &kp BSLH &kp UNDER                    &kp TILDE &kp DLLR &kp LBRC &kp RBRC &kp AT
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃   |   ┃   &   ┃   -   ┃  ┃       ┃ ##### ┃       ┃
-                                      &kp PIPE &kp AMPS &kp MINUS   &none   &trans  &none
+//                                     ┃ ##### ┃ ##### ┃ ##### ┃  ┃ ##### ┃ ##### ┃ ##### ┃
+                                         &trans  &trans  &trans     &trans  &trans  &trans
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
