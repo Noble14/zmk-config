@@ -177,18 +177,18 @@
 //         ┃       ┃                                                                                          ┃  DEL  ┃
              &none                                                                                             &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃ Pg Up ┃       ┃       ┃       ┃       ┃ BKSPC ┃
-     &none   &none   &none   &none   &none   &none                            &kp PG_UP &none   &none   &none   &none  &kp BSPC
+// ┃       ┃ Home  ┃  Up   ┃  End  ┃ BKSPC ┃ Pg Up ┃                          ┃  F12  ┃  F7   ┃  F8   ┃  F9   ┃       ┃       ┃
+     &none &kp HOME &kp UP &kp END &kp BSCP &kp PG_UP                          &kp F12  &kp F7  &kp F8  &kp F9  &none   &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃       ┃ Cmd A ┃       ┃       ┃       ┃       ┃                          ┃ Home  ┃ Left  ┃  Up   ┃ Right ┃  End  ┃RETURN ┃
-&kp GLOBE Sft LG(A) &kp LCTL &kp LALT &kp LGUI &kp RALT                      &kp HOME &kp LEFT &kp UP &kp RIGHT &kp END &kp RET
-// ┃ Globe ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+// ┃       ┃ Left  ┃ Down  ┃ Right ┃  DEL  ┃ Pg Dn ┃                          ┃  F11  ┃  F4   ┃  F5   ┃  F6   ┃       ┃       ┃
+&kp GLOBE &kp LEFT &kp DOWN &kp RIGHT &kp DEL &kp PG_DN                        &kp F11  &kp F4  &kp F5  &kp F6  &none   &none
+// ┃ Globe ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃ Cmd Z ┃ Cmd X ┃ Cmd C ┃ Cmd V ┃       ┃                          ┃ Pg Dn ┃       ┃ Down  ┃       ┃       ┃
-         &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &none                        &kp PG_DN &none  &kp DOWN &none   &none
+//         ┃ Cmd Z ┃ Cmd X ┃ Cmd C ┃ Cmd V ┃       ┃                          ┃  F10  ┃  F1   ┃  F2   ┃  F3   ┃       ┃
+         &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &none                         &kp F10  &kp F1  &kp F2  &kp F3  &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃  fn   ┃ ##### ┃       ┃  ┃       ┃ SPACE ┃       ┃
-                                         &mo 1   &trans  &none      &none  &kp SPC  &none
+//                                     ┃  fn   ┃ ##### ┃       ┃  ┃       ┃ ##### ┃ ##### ┃
+                                         &mo 1   &trans  &none      &none  &trans   &trans
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
