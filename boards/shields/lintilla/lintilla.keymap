@@ -40,7 +40,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        olt : own_lt {
+        olt: own_lt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -145,7 +145,7 @@
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃  DEL  ┃
-                              &kp ESC &own_lt 4 SPC &own_lt 1 TAB   &own_lt 2 RET &own_lt 4 BSPC &kp DEL
+                                    &kp ESC &olt 4 SPC &olt 1 TAB   &olt 2 RET &olt 4 BSPC &kp DEL
 //                                     ┗━━━━━━━┫  sym  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
