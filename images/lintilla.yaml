@@ -38,10 +38,10 @@ layers:
   - {t: ., s: ':'}
   - {t: /, s: \}
   - Esc
-  - '&own_lt 4 SPC'
-  - '&own_lt 1 TAB'
-  - '&own_lt 2 RET'
-  - '&own_lt 4 BSPC'
+  - {t: ␣, h: symbols}
+  - {t: ⇥, h: numpad}
+  - {t: ↵, h: navigation}
+  - {t: ⌫, h: symbols}
   - ⌦
   numpad:
   - ''
@@ -79,10 +79,10 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
+  - '0'
   - {t: ▽, type: trans}
   - navigation
-  - ''
+  - {type: held}
   - ','
   - ␣
   - '0'
@@ -124,9 +124,9 @@ layers:
   - F3
   - ''
   - numpad
+  - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   function:
@@ -167,9 +167,9 @@ layers:
   - F3
   - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - F12
+  - {t: F12, type: held}
   - F11
   - F10
   symbols:
@@ -210,7 +210,7 @@ layers:
   - '}'
   - '@'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
