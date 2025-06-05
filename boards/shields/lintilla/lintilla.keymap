@@ -135,8 +135,8 @@
 //         ┃   Y   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   N   ┃   M   ┃  , ;  ┃  . :  ┃  / \  ┃
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃  DEL  ┃
-                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &lt 4 BSPC &kp DEL
+//                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃ StSft ┃
+                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &lt 4 BSPC &sscw
 //                                     ┗━━━━━━━┫  sym  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
