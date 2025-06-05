@@ -39,7 +39,7 @@
             bindings = <&bt_clr>, <&bt_sel>;
         };
 
-        hml: homerow_mod {
+        hml: homerow_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -50,7 +50,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hmr: homerow_mod {
+        hmr: homerow_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
