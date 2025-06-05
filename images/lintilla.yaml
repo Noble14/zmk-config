@@ -3,7 +3,7 @@ layers:
   Qwerty:
   - Launchpad MissionCtrl
   - {t: MUTE, h: keyboard}
-  - Esc
+  - '&key_repeat'
   - Q
   - W
   - E
@@ -42,7 +42,7 @@ layers:
   - {t: ⇥, h: numpad}
   - {t: ↵, h: navigation}
   - {t: ⌫, h: symbols}
-  - ⌦
+  - {t: sticky ⇧, s: caps word}
   numpad:
   - ''
   - ⌦
