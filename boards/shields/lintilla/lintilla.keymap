@@ -133,6 +133,8 @@
         };
     };
 
+
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -351,6 +353,17 @@
 
         layer15 {
             status = "reserved";
+        };
+    };
+};
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <36 9>;
+            bindings = <&kp LC(B) &kp 1>;
         };
     };
 };
