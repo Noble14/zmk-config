@@ -263,19 +263,28 @@ layers:
 combos:
 - p: [36, 32]
   k: '&tmsw N1'
+  l: [Qwerty]
 - p: [36, 33]
   k: '&tmsw N2'
+  l: [Qwerty]
 - p: [36, 34]
   k: '&tmsw N3'
+  l: [Qwerty]
 - p: [36, 21]
   k: '&tmsw N4'
+  l: [Qwerty]
 - p: [36, 22]
   k: '&tmsw N5'
+  l: [Qwerty]
 - p: [36, 23]
   k: '&tmsw N6'
+  l: [Qwerty]
 - p: [36, 9]
   k: '&tmsw N7'
+  l: [Qwerty]
 - p: [36, 10]
   k: '&tmsw N8'
+  l: [Qwerty]
 - p: [36, 11]
   k: '&tmsw N9'
+  l: [Qwerty]
