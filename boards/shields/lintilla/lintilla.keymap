@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors/rgbled_widget.dtsi>
 
+#include "lintilla_combos.dtsi"
+
 // Multiple mods
 #define GS(key) &kp LG(LS(key))
 #define GCS(key) &kp LG(LC(LS(key)))
@@ -359,17 +361,6 @@
 
         layer15 {
             status = "reserved";
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_tmsw1 {
-            timeout-ms = <50>;
-            key-positions = <36 9>;
-            bindings = <&tmsw N1>;
         };
     };
 };
