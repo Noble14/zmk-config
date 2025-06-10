@@ -328,7 +328,7 @@ path.combo {
 <path d="M515,202 l173,-31" class="combo"/>
 <rect rx="6" ry="6" x="501" y="189" width="28" height="26" class="combo"/>
 <text x="515" y="202" class="combo tap">
-<tspan x="515" dy="-0.6em">&amp;tmsw</tspan><tspan x="515" dy="1.2em">N1</tspan>
+<tspan x="515" dy="-0.6em">tmux</tspan><tspan x="515" dy="1.2em">1</tspan>
 </text>
 </g>
 <g class="combo combopos-1">
@@ -336,7 +336,7 @@ path.combo {
 <path d="M543,189 l202,-44" class="combo"/>
 <rect rx="6" ry="6" x="529" y="176" width="28" height="26" class="combo"/>
 <text x="543" y="189" class="combo tap">
-<tspan x="543" dy="-0.6em">&amp;tmsw</tspan><tspan x="543" dy="1.2em">N2</tspan>
+<tspan x="543" dy="-0.6em">tmux</tspan><tspan x="543" dy="1.2em">2</tspan>
 </text>
 </g>
 <g class="combo combopos-2">
@@ -344,7 +344,7 @@ path.combo {
 <path d="M569,207 l228,-27" class="combo"/>
 <rect rx="6" ry="6" x="555" y="194" width="28" height="26" class="combo"/>
 <text x="569" y="207" class="combo tap">
-<tspan x="569" dy="-0.6em">&amp;tmsw</tspan><tspan x="569" dy="1.2em">N3</tspan>
+<tspan x="569" dy="-0.6em">tmux</tspan><tspan x="569" dy="1.2em">3</tspan>
 </text>
 </g>
 <g class="combo combopos-3">
@@ -352,7 +352,7 @@ path.combo {
 <path d="M515,174 l174,-57" class="combo"/>
 <rect rx="6" ry="6" x="501" y="161" width="28" height="26" class="combo"/>
 <text x="515" y="174" class="combo tap">
-<tspan x="515" dy="-0.6em">&amp;tmsw</tspan><tspan x="515" dy="1.2em">N4</tspan>
+<tspan x="515" dy="-0.6em">tmux</tspan><tspan x="515" dy="1.2em">4</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -360,7 +360,7 @@ path.combo {
 <path d="M544,161 l203,-70" class="combo"/>
 <rect rx="6" ry="6" x="530" y="148" width="28" height="26" class="combo"/>
 <text x="544" y="161" class="combo tap">
-<tspan x="544" dy="-0.6em">&amp;tmsw</tspan><tspan x="544" dy="1.2em">N5</tspan>
+<tspan x="544" dy="-0.6em">tmux</tspan><tspan x="544" dy="1.2em">5</tspan>
 </text>
 </g>
 <g class="combo combopos-5">
@@ -368,7 +368,7 @@ path.combo {
 <path d="M573,179 l232,-53" class="combo"/>
 <rect rx="6" ry="6" x="559" y="166" width="28" height="26" class="combo"/>
 <text x="573" y="179" class="combo tap">
-<tspan x="573" dy="-0.6em">&amp;tmsw</tspan><tspan x="573" dy="1.2em">N6</tspan>
+<tspan x="573" dy="-0.6em">tmux</tspan><tspan x="573" dy="1.2em">6</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
@@ -376,7 +376,7 @@ path.combo {
 <path d="M515,146 l175,-82" class="combo"/>
 <rect rx="6" ry="6" x="501" y="133" width="28" height="26" class="combo"/>
 <text x="515" y="146" class="combo tap">
-<tspan x="515" dy="-0.6em">&amp;tmsw</tspan><tspan x="515" dy="1.2em">N7</tspan>
+<tspan x="515" dy="-0.6em">tmux</tspan><tspan x="515" dy="1.2em">7</tspan>
 </text>
 </g>
 <g class="combo combopos-7">
@@ -384,7 +384,7 @@ path.combo {
 <path d="M545,133 l205,-96" class="combo"/>
 <rect rx="6" ry="6" x="531" y="120" width="28" height="26" class="combo"/>
 <text x="545" y="133" class="combo tap">
-<tspan x="545" dy="-0.6em">&amp;tmsw</tspan><tspan x="545" dy="1.2em">N8</tspan>
+<tspan x="545" dy="-0.6em">tmux</tspan><tspan x="545" dy="1.2em">8</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
@@ -392,7 +392,7 @@ path.combo {
 <path d="M576,151 l236,-79" class="combo"/>
 <rect rx="6" ry="6" x="562" y="138" width="28" height="26" class="combo"/>
 <text x="576" y="151" class="combo tap">
-<tspan x="576" dy="-0.6em">&amp;tmsw</tspan><tspan x="576" dy="1.2em">N9</tspan>
+<tspan x="576" dy="-0.6em">tmux</tspan><tspan x="576" dy="1.2em">9</tspan>
 </text>
 </g>
 </g>
