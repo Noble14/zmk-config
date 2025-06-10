@@ -169,7 +169,7 @@
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃ StSft ┃
-                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &lt 4 BSPC &sscw
+                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &kp BSPC &sscw
 //                                     ┗━━━━━━━┫  sym  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
