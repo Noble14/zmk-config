@@ -54,6 +54,15 @@ parse_config:
     "&sk LSHIFT": sticky ⇧
     "&studio_unlock": ZMK Studio
     "&usb_sel": USB
+    "&tmsw N1": tmux 1
+    "&tmsw N2": tmux 2
+    "&tmsw N3": tmux 3
+    "&tmsw N4": tmux 4
+    "&tmsw N5": tmux 5
+    "&tmsw N6": tmux 6
+    "&tmsw N7": tmux 7
+    "&tmsw N8": tmux 8
+    "&tmsw N9": tmux 9
     GS(N4): screen shot
     GCS(N4): screen copy
     GC(Q): lock screen
