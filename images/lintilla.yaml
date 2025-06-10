@@ -41,7 +41,7 @@ layers:
   - {t: ␣, h: symbols}
   - {t: ⇥, h: numpad}
   - {t: ↵, h: navigation}
-  - {t: ⌫, h: symbols}
+  - ⌫
   - {t: sticky ⇧, s: caps word}
   numpad:
   - ''
