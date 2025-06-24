@@ -1,4 +1,5 @@
 parse_config:
+  zmk_additional_includes: [ "zmk-helpers/include" ]
   modifier_fn_map:
     left_shift: ⇧
     left_alt: ⌥
