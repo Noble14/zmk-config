@@ -25,15 +25,15 @@
 #define RCmd &hmr LGUI
 #define Alt  &hmr RALT
 
-ZMK_UNICODE(hu_a_acute,        N0, N0,  E, N1,  N0, N0,  C, N1) // á/Á
-ZMK_UNICODE(hu_e_acute,        N0, N0,  E, N9,  N0, N0,  C, N9) // é/É
-ZMK_UNICODE(hu_i_acute,        N0, N0,  E,  D,  N0, N0,  C,  D) // í/Í
-ZMK_UNICODE(hu_o_acute,        N0, N0,  F, N3,  N0, N0,  D, N3) // ó/Ó
-ZMK_UNICODE(hu_o_diaeresis,    N0, N0,  F, N6,  N0, N0,  D, N6) // ö/Ö
-ZMK_UNICODE(hu_o_double_acute, N0, N1, N5, N1,  N0, N1, N5, N0) // ő/Ő
-ZMK_UNICODE(hu_u_acute,        N0, N0,  F,  A,  N0, N0,  D,  A) // ú/Ú
-ZMK_UNICODE(hu_u_diaeresis,    N0, N0,  F,  C,  N0, N0,  D,  C) // ü/Ü
-ZMK_UNICODE(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
+ZMK_UNICODE_PAIR(hu_a_acute,        N0, N0,  E, N1,  N0, N0,  C, N1) // á/Á
+ZMK_UNICODE_PAIR(hu_e_acute,        N0, N0,  E, N9,  N0, N0,  C, N9) // é/É
+ZMK_UNICODE_PAIR(hu_i_acute,        N0, N0,  E,  D,  N0, N0,  C,  D) // í/Í
+ZMK_UNICODE_PAIR(hu_o_acute,        N0, N0,  F, N3,  N0, N0,  D, N3) // ó/Ó
+ZMK_UNICODE_PAIR(hu_o_diaeresis,    N0, N0,  F, N6,  N0, N0,  D, N6) // ö/Ö
+ZMK_UNICODE_PAIR(hu_o_double_acute, N0, N1, N5, N1,  N0, N1, N5, N0) // ő/Ő
+ZMK_UNICODE_PAIR(hu_u_acute,        N0, N0,  F,  A,  N0, N0,  D,  A) // ú/Ú
+ZMK_UNICODE_PAIR(hu_u_diaeresis,    N0, N0,  F,  C,  N0, N0,  D,  C) // ü/Ü
+ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
 
 #define KEYS_L 0 2 3  4  5  6  7 14 15 16 17 18 19 26 27 28 29 30
 #define KEYS_R 1 8 9 10 11 12 13 20 21 22 23 24 25 31 32 33 34 35
