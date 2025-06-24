@@ -24,6 +24,16 @@
 #define RCmd &hmr LGUI
 #define Alt  &hmr RALT
 
+ZMK_UNICODE(hu_a_acute,        N0, N0,  E, N1,  N0, N0,  C, N1) // á/Á
+ZMK_UNICODE(hu_e_acute,        N0, N0,  E, N9,  N0, N0,  C, N9) // é/É
+ZMK_UNICODE(hu_i_acute,        N0, N0,  E,  D,  N0, N0,  C,  D) // í/Í
+ZMK_UNICODE(hu_o_acute,        N0, N0,  F, N3,  N0, N0,  D, N3) // ó/Ó
+ZMK_UNICODE(hu_o_diaeresis,    N0, N0,  F, N6,  N0, N0,  D, N6) // ö/Ö
+ZMK_UNICODE(hu_o_double_acute, N0, N1, N5, N1,  N0, N1, N5, N0) // ő/Ő
+ZMK_UNICODE(hu_u_acute,        N0, N0,  F,  A,  N0, N0,  D,  A) // ú/Ú
+ZMK_UNICODE(hu_u_diaeresis,    N0, N0,  F,  C,  N0, N0,  D,  C) // ü/Ü
+ZMK_UNICODE(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
+
 #define KEYS_L 0 2 3  4  5  6  7 14 15 16 17 18 19 26 27 28 29 30
 #define KEYS_R 1 8 9 10 11 12 13 20 21 22 23 24 25 31 32 33 34 35
 #define THUMBS 36 37 38 39 40 41
@@ -158,8 +168,8 @@
             &lp_mc                                                                                          &lt 5 K_MUTE
 //         ┃MISSION┃                                                                                          ┃ keybd ┃
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃ Repeat┃   Q   ┃   W   ┃   E   ┃   R   ┃   T   ┃                          ┃   Z   ┃   U   ┃   I   ┃   O   ┃   P   ┃ BKSPC ┃
- &key_repeat &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &kp BSPC
+// ┃ Repeat┃   Q   ┃   W   ┃   E   ┃   R   ┃   T   ┃                          ┃   Z   ┃   U   ┃   I   ┃   O   ┃   P   ┃  HUN  ┃
+ &key_repeat &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &sl 3
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃  TAB  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ; "  ┃RETURN ┃
   LGlb TAB  LCmd A   Opt S   LCtl D   LSft F  &kp G                            &kp H   RSft J   RCtl K   Alt L  RCmd SEMI RGlb RET
@@ -229,21 +239,21 @@
 
         fn {
 //                       ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-            display-name = "function"              ; // 3
+            display-name = "hungarian"              ; // 3
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
 //         ┃       ┃                                                                                          ┃       ┃
              &none                                                                                              &none
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃  F7   ┃  F8   ┃  F9   ┃       ┃       ┃
-     &none   &none   &none   &none   &none   &none                              &none  &kp F7  &kp F8  &kp F9   &none   &none
+// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+     &none   &none   &none   &none   &none   &none                              &none   &none   &none   &none   &none   &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃ Globe ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃       ┃  F4   ┃  F5   ┃  F6   ┃       ┃       ┃
-&kp GLOBE &kp LSFT &kp LCTL &kp LALT &kp LGUI &kp RALT                          &none  &kp F4  &kp F5  &kp F6   &none   &none
+// ┃       ┃   á   ┃   ö   ┃   ü   ┃   ú   ┃       ┃                          ┃       ┃   ó   ┃   ű   ┃   ő   ┃   é   ┃       ┃
+&none &hu_a_acute &hu_o_diaeresis &hu_u_diaeresis &hu_u_acute &none             &none &hu_o_acute &hu_u_double_acute &hu_o_double_acute &hu_e_acute   &none
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃  F1   ┃  F2   ┃  F3   ┃       ┃
-             &none   &none   &none   &none   &none                              &none  &kp F1  &kp F2  &kp F3   &none
+//         ┃   í   ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃
+         &hu_i_acute &none   &none   &none   &none                              &none   &none   &none   &none   &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃ ##### ┃ ##### ┃       ┃  ┃  F12  ┃  F11  ┃  F10  ┃
                                          &trans  &trans  &none     &kp F12 &kp F11 &kp F10
