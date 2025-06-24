@@ -14,7 +14,7 @@ layers:
   - I
   - O
   - P
-  - ⌫
+  - {t: hungarian, h: sticky}
   - {t: ⇥, h: 🌐}
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
@@ -129,7 +129,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  function:
+  hungarian:
   - ''
   - ''
   - ''
@@ -139,37 +139,37 @@ layers:
   - ''
   - ''
   - ''
-  - F7
-  - F8
-  - F9
-  - ''
-  - ''
-  - 🌐
-  - ⇧
-  - ^
-  - ⌥
-  - ⌘
-  - Alt
-  - ''
-  - F4
-  - F5
-  - F6
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - F1
-  - F2
-  - F3
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: F12, type: held}
+  - ''
+  - {t: '&hu_a_acute_lower', s: '&hu_a_acute_upper'}
+  - {t: '&hu_o_diaeresis_lower', s: '&hu_o_diaeresis_upper'}
+  - {t: '&hu_u_diaeresis_lower', s: '&hu_u_diaeresis_upper'}
+  - {t: '&hu_u_acute_lower', s: '&hu_u_acute_upper'}
+  - ''
+  - ''
+  - {t: '&hu_o_acute_lower', s: '&hu_o_acute_upper'}
+  - {t: '&hu_u_double_acute_lower', s: '&hu_u_double_acute_upper'}
+  - {t: '&hu_o_double_acute_lower', s: '&hu_o_double_acute_upper'}
+  - {t: '&hu_e_acute_lower', s: '&hu_e_acute_upper'}
+  - ''
+  - {t: '&hu_i_acute_lower', s: '&hu_i_acute_upper'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - F12
   - F11
   - F10
   symbols:
