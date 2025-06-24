@@ -5,6 +5,7 @@
 #include <behaviors/rgbled_widget.dtsi>
 
 #include "lintilla_combos.dtsi"
+#include "zmk-helpers/helper.h"
 
 // Multiple mods
 #define GS(key) &kp LG(LS(key))
