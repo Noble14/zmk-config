@@ -64,15 +64,15 @@ parse_config:
     "&tmsw N7": tmux 7
     "&tmsw N8": tmux 8
     "&tmsw N9": tmux 9
-    "hu_a_acute": Á
-    "hu_e_acute": É
-    "hu_i_acute": Í
-    "hu_o_acute": Ó
-    "hu_o_diaeresis": Ö
-    "hu_o_double_acute": Ő
-    "hu_u_acute": Ú
-    "hu_u_diaeresis": Ü
-    "hu_u_double_acute": Ű
+    "&hu_a_acute": Á
+    "&hu_e_acute": É
+    "&hu_i_acute": Í
+    "&hu_o_acute": Ó
+    "&hu_o_diaeresis": Ö
+    "&hu_o_double_acute": Ő
+    "&hu_u_acute": Ú
+    "&hu_u_diaeresis": Ü
+    "&hu_u_double_acute": Ű
     GS(N4): screen shot
     GCS(N4): screen copy
     GC(Q): lock screen
