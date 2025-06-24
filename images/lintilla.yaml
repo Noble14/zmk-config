@@ -145,18 +145,18 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: '&hu_a_acute_lower', s: '&hu_a_acute_upper'}
-  - {t: '&hu_o_diaeresis_lower', s: '&hu_o_diaeresis_upper'}
-  - {t: '&hu_u_diaeresis_lower', s: '&hu_u_diaeresis_upper'}
-  - {t: '&hu_u_acute_lower', s: '&hu_u_acute_upper'}
+  - Á
+  - Ö
+  - Ü
+  - Ú
   - ''
   - ''
-  - {t: '&hu_o_acute_lower', s: '&hu_o_acute_upper'}
-  - {t: '&hu_u_double_acute_lower', s: '&hu_u_double_acute_upper'}
-  - {t: '&hu_o_double_acute_lower', s: '&hu_o_double_acute_upper'}
-  - {t: '&hu_e_acute_lower', s: '&hu_e_acute_upper'}
+  - Ó
+  - Ű
+  - Ő
+  - É
   - ''
-  - {t: '&hu_i_acute_lower', s: '&hu_i_acute_upper'}
+  - Í
   - ''
   - ''
   - ''
