@@ -6,6 +6,7 @@
 
 #include "lintilla_combos.dtsi"
 #include "zmk-helpers/helper.h"
+#define HOST_OS 1
 
 // Multiple mods
 #define GS(key) &kp LG(LS(key))
