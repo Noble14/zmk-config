@@ -14,7 +14,7 @@ layers:
   - I
   - O
   - P
-  - {t: hungarian, h: sticky}
+  - {t: ⌫, h: hungarian}
   - {t: ⇥, h: 🌐}
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
