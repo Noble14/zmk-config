@@ -26,7 +26,7 @@ layers:
   - {t: K, h: ^}
   - {t: L, h: Alt}
   - {t: ;, h: ⌘}
-  - {t: ↵, h: 🌐}
+  - {t: ↵, h: hungarian}
   - Y
   - X
   - C
