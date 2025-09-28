@@ -23,6 +23,7 @@ include:
     shield: lintilla_left_central rgbled_adapter
     snippet: studio-rpc-usb-uart
     artifact-name: lintilla-left-central
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   # Lintilla right will always be a peripheral
   - board: seeeduino_xiao_ble
