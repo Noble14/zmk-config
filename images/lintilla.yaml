@@ -3,7 +3,7 @@ layers:
   Qwerty:
   - Launchpad MissionCtrl
   - {t: MUTE, h: keyboard}
-  - {t: ⇥, h: hungarian}
+  - '&key_repeat'
   - Q
   - W
   - E
@@ -14,8 +14,8 @@ layers:
   - I
   - O
   - P
-  - {t: '&de_ae_lower', s: '&de_ae_upper'}
-  - É
+  - {t: ⌫, h: hungarian}
+  - {t: ⇥, h: 🌐}
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
   - {t: D, h: ^}
@@ -42,7 +42,7 @@ layers:
   - {t: ⇥, h: numpad}
   - {t: ↵, h: navigation}
   - ⌫
-  - {t: sticky ⇧, s: caps word}
+  - '&lsscw 3'
   numpad:
   - ''
   - ⌦
@@ -51,7 +51,7 @@ layers:
   - ''
   - ''
   - ''
-  - Á
+  - ''
   - /
   - '7'
   - '8'
@@ -132,7 +132,7 @@ layers:
   hungarian:
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - Á
   - Ö
