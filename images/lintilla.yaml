@@ -42,7 +42,7 @@ layers:
   - {t: ⇥, h: numpad}
   - {t: ↵, h: navigation}
   - ⌫
-  - '&lsscw 3'
+  - {t: sticky ⇧, h: hungarian, s: caps word}
   numpad:
   - ''
   - ⌦

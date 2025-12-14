@@ -320,8 +320,11 @@ path.combo {
 <g transform="translate(644, 236) rotate(-15.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;lsscw</tspan><tspan x="0" dy="1.2em">3</tspan>
+<tspan x="0" dy="-0.6em">sticky</tspan><tspan x="0" dy="1.2em">⇧</tspan>
 </text>
+<a href="#hungarian">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">hungarian</tspan></text>
+</a><text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">caps word</tspan></text>
 </g>
 <g class="combo combopos-0">
 <path d="M515,202 l-173,31" class="combo"/>
