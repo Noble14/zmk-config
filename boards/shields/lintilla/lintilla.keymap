@@ -253,7 +253,7 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
          &hu_i_acute &none   &none   &none   &none                              &none   &none   &none   &none   &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃       ┃       ┃       ┃  ┃       ┃       ┃       ┃
-                                         &none  &LSHIFT  &none      &none   &none   &none
+                                        &none  &kp LSHIFT &none     &none   &none   &none
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
