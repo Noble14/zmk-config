@@ -176,7 +176,7 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃ StSft ┃
-                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &kp BSPC &lsscw 3
+                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &kp BSPC &lsscw 3 0
 //                                     ┗━━━━━━━┫  sym  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
