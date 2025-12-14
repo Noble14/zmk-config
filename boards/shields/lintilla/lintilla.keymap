@@ -124,14 +124,6 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        function_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     macros {
         bt_clr: bluetooth_clear {
             compatible = "zmk,behavior-macro-one-param";
@@ -174,17 +166,17 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
 //         ┃MISSION┃                                                                                          ┃ keybd ┃
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
 // ┃ Repeat┃   Q   ┃   W   ┃   E   ┃   R   ┃   T   ┃                          ┃   Z   ┃   U   ┃   I   ┃   O   ┃   P   ┃  HUN  ┃
- &lt 3 TAB &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &de_ae
+ &key_repeat &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &lt 3 BSPC
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃  TAB  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ; "  ┃RETURN ┃
-  &hu_e_acute  LCmd A   Opt S   LCtl D   LSft F  &kp G                            &kp H   RSft J   RCtl K   Alt L  RCmd SEMI &lt 3 RET
+  LGlb TAB  LCmd A   Opt S   LCtl D   LSft F  &kp G                            &kp H   RSft J   RCtl K   Alt L  RCmd SEMI &lt 3 RET
 // ┃ Globe ┃  Cmd  ┃  Opt  ┃  Ctrl ┃ Shift ┃       ┃                          ┃ R Alt ┃ Shift ┃  Ctrl ┃ RAlt  ┃  Cmd  ┃ Globe ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃   Y   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   N   ┃   M   ┃  , ;  ┃  . :  ┃  / \  ┃
              &kp Y   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &mcs    &mdc    &msb
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃  ESC  ┃ SPACE ┃ { TAB ┃  ┃ } RET ┃ BKSPC ┃ StSft ┃
-                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &kp BSPC &sscw
+                                    &kp ESC &lt 4 SPC &lt 1 TAB   &lt 2 RET &kp BSPC &lsscw 3
 //                                     ┗━━━━━━━┫  sym  ┣━━━━━━━┛  ┗━━━━━━━┫  sym  ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
@@ -200,7 +192,7 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
              &none                                                                                             &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
 // ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃   /   ┃   7   ┃   8   ┃   9   ┃   -   ┃ BKSPC ┃
-     &none   &none   &none   &none   &none   &hu_a_acute                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
+     &none   &none   &none   &none   &none   &none                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃ CtrlA ┃       ┃ CtrlD ┃       ┃       ┃                          ┃   *   ┃   4   ┃   5   ┃   6   ┃   +   ┃RETURN ┃
 &kp GLOBE  LCmd A   Opt S   LCtl D   LSft F  &trans                       &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
