@@ -3,7 +3,7 @@ layers:
   Qwerty:
   - Launchpad MissionCtrl
   - {t: MUTE, h: keyboard}
-  - '&key_repeat'
+  - {t: ⇥, h: hungarian}
   - Q
   - W
   - E
@@ -132,7 +132,7 @@ layers:
   hungarian:
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -155,7 +155,7 @@ layers:
   - Ű
   - Ő
   - É
-  - {type: held}
+  - ''
   - Í
   - ''
   - ''
