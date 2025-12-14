@@ -185,10 +185,10 @@ path.combo {
 </g>
 <g transform="translate(934, 159) rotate(12.5)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌫</text>
-<a href="#hungarian">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">hungarian</tspan></text>
-</a></g>
+<a href="#hun">
+<text x="0" y="0" class="key tap layer-activator">hun</text>
+</a><text x="0" y="24" class="key hold">sticky</text>
+</g>
 <g transform="translate(45, 214) rotate(-12.5)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⇥</text>
@@ -245,8 +245,8 @@ path.combo {
 <g transform="translate(922, 214) rotate(12.5)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">↵</text>
-<a href="#hungarian">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">hungarian</tspan></text>
+<a href="#hun">
+<text x="0" y="24" class="key hold layer-activator">hun</text>
 </a></g>
 <g transform="translate(105, 227) rotate(-12.5)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -322,8 +322,8 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">sticky</tspan><tspan x="0" dy="1.2em">⇧</tspan>
 </text>
-<a href="#hungarian">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">hungarian</tspan></text>
+<a href="#hun">
+<text x="0" y="24" class="key hold layer-activator">hun</text>
 </a><text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">caps word</tspan></text>
 </g>
 <g class="combo combopos-0">
@@ -733,8 +733,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1184)" class="layer-hungarian">
-<text x="0" y="28" class="label" id="hungarian">hungarian:</text>
+<g transform="translate(30, 1184)" class="layer-hun">
+<text x="0" y="28" class="label" id="hun">hun:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(69, 35) rotate(-2.5)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -860,6 +860,7 @@ path.combo {
 </g>
 <g transform="translate(381, 260) rotate(30.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&amp;LSHIFT</text>
 </g>
 <g transform="translate(430, 299) rotate(-45.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

@@ -14,7 +14,7 @@ layers:
   - I
   - O
   - P
-  - {t: ⌫, h: hungarian}
+  - {t: hun, h: sticky}
   - {t: ⇥, h: 🌐}
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
@@ -26,7 +26,7 @@ layers:
   - {t: K, h: ^}
   - {t: L, h: Alt}
   - {t: ;, h: ⌘}
-  - {t: ↵, h: hungarian}
+  - {t: ↵, h: hun}
   - Y
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ⇥, h: numpad}
   - {t: ↵, h: navigation}
   - ⌫
-  - {t: sticky ⇧, h: hungarian, s: caps word}
+  - {t: sticky ⇧, h: hun, s: caps word}
   numpad:
   - ''
   - ⌦
@@ -129,7 +129,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  hungarian:
+  hun:
   - ''
   - ''
   - ''
@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&LSHIFT'
   - ''
   - ''
   - ''
