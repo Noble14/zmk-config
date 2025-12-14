@@ -200,7 +200,7 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
              &none                                                                                             &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
 // ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃   /   ┃   7   ┃   8   ┃   9   ┃   -   ┃ BKSPC ┃
-     &none   &none   &none   &none   &none   &none                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
+     &none   &none   &none   &none   &none   &hu_a_acute                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃ CtrlA ┃       ┃ CtrlD ┃       ┃       ┃                          ┃   *   ┃   4   ┃   5   ┃   6   ┃   +   ┃RETURN ┃
 &kp GLOBE  LCmd A   Opt S   LCtl D   LSft F  &trans                       &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
