@@ -15,7 +15,7 @@ layers:
   - O
   - P
   - {t: '&de_ae_lower', s: '&de_ae_upper'}
-  - {t: ⇥, h: 🌐}
+  - É
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
   - {t: D, h: ^}
