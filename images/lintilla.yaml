@@ -14,7 +14,7 @@ layers:
   - I
   - O
   - P
-  - {t: ⌫, h: hungarian}
+  - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - {t: ⇥, h: 🌐}
   - {t: A, h: ⌘}
   - {t: S, h: ⌥}
@@ -137,13 +137,13 @@ layers:
   - ''
   - ''
   - ''
+  - {t: '&de_ae_lower', s: '&de_ae_upper'}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - Á
   - Ö
@@ -155,7 +155,7 @@ layers:
   - Ű
   - Ő
   - É
-  - ''
+  - {type: held}
   - Í
   - ''
   - ''
