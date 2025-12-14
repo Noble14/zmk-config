@@ -5,11 +5,11 @@
 #include <behaviors/rgbled_widget.dtsi>
 
 #include "lintilla_combos.dtsi"
+#define HOST_OS 1
 #include "zmk-helpers/helper.h"
 
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
-#define HOST_OS 1
 
 // Multiple mods
 #define GS(key) &kp LG(LS(key))
@@ -177,7 +177,7 @@ ZMK_UNICODE_PAIR(hu_u_double_acute, N0, N1, N7, N1,  N0, N1, N7, N0) // ű/Ű
  &key_repeat &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Z   &kp U   &kp I   &kp O   &kp P  &de_ae
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃  TAB  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ; "  ┃RETURN ┃
-  LGlb TAB  LCmd A   Opt S   LCtl D   LSft F  &kp G                            &kp H   RSft J   RCtl K   Alt L  RCmd SEMI &lt 3 RET
+  &hu_e_acute  LCmd A   Opt S   LCtl D   LSft F  &kp G                            &kp H   RSft J   RCtl K   Alt L  RCmd SEMI &lt 3 RET
 // ┃ Globe ┃  Cmd  ┃  Opt  ┃  Ctrl ┃ Shift ┃       ┃                          ┃ R Alt ┃ Shift ┃  Ctrl ┃ RAlt  ┃  Cmd  ┃ Globe ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃   Y   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   N   ┃   M   ┃  , ;  ┃  . :  ┃  / \  ┃
